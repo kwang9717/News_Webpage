@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 980px;
+	margin: 0 auto;
+}
+a{
+   text-decoration: none;
+	color: black;
+}
+li{
+    list-style: none;
+}
+.topMenu{
+	position: relative;
+	background-color: greenyellow;
+	width: 980px;
+	height: 100px;
+}
+.topMenu>h2{
+	position: absolute;
+ 	top: 30px;
+	left: 20px;
+}
+.topMenu>.topMenuLogin>ul{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	float: right;
+}
+.topMenu>.topMenuLogin>ul>li{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	background-color: cornflowerblue;
+}
+.topMenu>.topMenuLogin>ul>li>a{
+	color:white;
+}
+.topMenu>.topMenuLogout>ul{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	float: right;
+	display: none;
+}
+.topMenu>.topMenuLogout>ul>li{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	background-color: cornflowerblue;
+}
+.topMenu>.topMenuLogout>ul>li>a{
+	color:white;
+}
+.topMenu>.topMenuLogout{
+	color:white;
+}
+.topNavi{
+	background-color: cadetblue;
+	width: 980px;
+	height: 80px;
+	position: relative;
+
+}
+.topNavi>ul{
+	position: absolute;
+	left: 130px;
+	top: 20px;
+	
+}
+.topNavi>ul>li{
+	background-color: aquamarine;
+	float: left;
+	margin-left: 70px;
+	width: 100px;
+	height: 40px;
+	font-size: 1.2rem;
+	line-height: 2;
+	text-align: center;
+}
